@@ -103,6 +103,13 @@ or run the examples of HolyJit with:
 $ RUSTC_WRAPPER=$(pwd)/rustc.sh cargo run --example brainfuck --verbose
 ```
 
+You can also run the HolyJit examples it in Gitpod, a free online development
+environment for GitHub:
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](
+  https://gitpod.io/#https://github.com/nbp/holyjit
+)
+
 At the moment, HolyJit is far from being yet ready for production! This is
 currently at a prototype stage, and most of the code & dependencies present
 today were made only as a proof of concept and not as a definitive

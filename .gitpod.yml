@@ -1,0 +1,5 @@
+image:
+  file: .gitpod.dockerfile
+tasks:
+  - init: cargo build --all
+    command: RUSTC_WRAPPER=$(pwd)/rustc.sh cargo run --example brainfuck --verbose
